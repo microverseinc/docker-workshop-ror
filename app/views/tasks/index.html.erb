@@ -1,0 +1,17 @@
+<div class="content">
+  <p style="color: green"><%= notice %></p>
+
+  <h1 class="app-title">Todolist</h1>
+
+  <div id="tasks">
+    <% @tasks.each do |task| %>
+      <%= render task %>
+      <p>
+        <%= link_to "View task", task %>
+      </p>
+    <% end %>
+  </div>
+
+  <%= link_to "Create new task", new_task_path, style: "float: right" %>
+</div>
+
