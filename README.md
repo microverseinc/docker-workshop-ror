@@ -53,6 +53,6 @@ rake db:migrate
 rails s
 ```
 
-## 🛫 Help
+## 🙋🏽‍♀️ Help
 
 If you need any help, send a message to the Slack channel [#modern-ci-cd-with-docker-demo-workshop](https://microverseupskill.slack.com/archives/C059WD1U06T)!
